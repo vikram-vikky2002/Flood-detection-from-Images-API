@@ -32,7 +32,7 @@ def decode_predictions(predictions, class_names):
     return decoded
 
 
-@app.get("/")
+@app.get("/home")
 def home():
     return {"message": "Hello World", "health_check" : "OK"}
 
